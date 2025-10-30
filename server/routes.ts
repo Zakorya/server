@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertProductSchema, insertCustomerSchema, insertOrderSchema, ADMIN_CREDENTIALS } from "@shared/schema";
+import { insertProductSchema, insertCustomerSchema, insertOrderSchema, ADMIN_CREDENTIALS } from "../shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Products API
