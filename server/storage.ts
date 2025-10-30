@@ -5,7 +5,7 @@ import {
   type InsertCustomer,
   type Order,
   type InsertOrder,
-} from "'../shared/schema";
+} from "'./shared/schema";
 import { randomUUID } from "crypto";
 
 // Image paths for sample products
